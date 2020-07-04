@@ -31,7 +31,22 @@ function draw() {
 if (a == 200) {
   a = 0
 }
-   
+   else if (a == 200){
+    a = 0
+    b = b
+  }
+  else if (b == 200){
+     b = 0
+     a = a
+  }
+   else if (a == 0){
+     a = 200
+     b = b
+   }
+  else if (b == 0){
+    b = 200
+    a = a
+  }
   
 }
 
@@ -41,4 +56,6 @@ if (a == 200) {
   loop();
   
 }
+
+
 
